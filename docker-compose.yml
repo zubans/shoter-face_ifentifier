@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  face-id:
+    build: ./
+    container_name: face-id
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./known_faces:/app/known_faces
