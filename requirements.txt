@@ -1,3 +1,4 @@
 flask
 face_recognition
 numpy
+Pillow
